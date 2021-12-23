@@ -11,9 +11,9 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        android:src="@drawable/santa_flying"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/blackglaccessanta"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,49 +24,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/kotrahope"
-        android:text="평화로운 중고나라 이야기"
-        android:textColor="@color/black"
+        android:text="산타로운 평화마을 이야기"
+        android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image" />
 
-    <ImageView
-        android:id="@+id/go_btn"
-        android:layout_width="280dp"
-        android:layout_height="280dp"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="화면을 탭하면 시작!"
+        android:textSize="24sp"
         android:fontFamily="@font/kotrahope"
-        android:src="@drawable/santa_stuck"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/my_good"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="108dp"
-        android:layout_marginBottom="120dp"
-        android:background="@drawable/round_button"
-        android:fontFamily="@font/kotrahope"
-        android:text="나의 물건"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/see_good"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
-        android:layout_marginBottom="120dp"
-        android:background="@drawable/round_button"
-        android:fontFamily="@font/kotrahope"
-        android:text="물건보기"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
