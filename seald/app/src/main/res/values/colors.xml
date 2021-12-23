@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="colorTransparent">#00ffffff</color>
-    <color name="colorGradientStart">#1c92de</color>
-    <color name="colorGradientCenter">#7DE0F6</color>
-    <color name="colorGradientEnd">#f2fcfe</color>
+    <color name="colorGradientStart">#E3467B</color>
+    <color name="colorGradientCenter">#E4759A</color>
+    <color name="colorGradientEnd">#E8ACC1</color>
 </resources>
