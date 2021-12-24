@@ -3,11 +3,11 @@
     <item
         android:title="선물뽑기"
         android:id="@+id/get_gift"
-        android:icon="@drawable/twohands"/>
+        android:icon="@drawable/handwithgift"/>
     <item
         android:title="내선물"
         android:id="@+id/mygift"
-        android:icon="@drawable/twohands"/>
+        android:icon="@drawable/gift"/>
     <item
         android:title="선물교환"
         android:id="@+id/change_gift"
@@ -15,5 +15,5 @@
     <item
         android:title="내정보"
         android:id="@+id/myinfotmation"
-        android:icon="@drawable/twohands"/>
+        android:icon="@drawable/gingerbread"/>
 </menu>
